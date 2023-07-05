@@ -1,0 +1,29 @@
+body {
+    background-color: #1e2124;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame {
+    width: 600px;
+    height: 500px;
+    border: 3px solid #1e2124;
+    background: #36393e;
+    margin: auto;
+    padding: 15px 10px;
+    box-shadow: black
+}

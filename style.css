@@ -1,0 +1,45 @@
+body {
+    color: whitesmoke;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    color: #FF004D;
+}
+
+h2 {
+    text-decoration:overline;
+}
+
+h3 {
+    font-style: oblique;
+}
+
+img {
+    border: 2px solid #FF004D;
+    filter:saturate(125%);
+    width: 50%;
+    height: auto;
+}
+
+img:hover {
+    opacity: 0.8;
+    border: 2px solid hotpink;
+}
+
+.column-container {
+    column-count: 2; /* Set the number of columns */
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: whitesmoke;
+    column-width: 100px;
+}
+  
+.column {
+    break-inside: avoid; /* Prevent column breaks within the content */
+}
